@@ -1,0 +1,42 @@
+{
+  "menuLayers": [
+    {
+      "id": "superpoi",
+      "visbile": false,
+      "label": "Супер-POI",
+      "layers": ["superpoi2"]
+    },
+    {
+      "id": "parkings",
+      "visbile": false,
+      "label": "Парковки",
+      "layers": ["parkings"]
+    }
+  ],
+  "sources": [
+    { "id": "superpoi", "data": { "type": "geojson", "data": "./data/superpoi.geojson"} },
+    { "id": "parkings", "data": { "type": "geojson", "data": "./data/parkings.geojson"} }
+  ],
+  "layers": [
+    {
+      "type":"fill",
+      "source":"parkings",
+      "id":"parkings",
+      "paint": {
+        "fill-color": "#0066FF",
+        "fill-opacity": 0.5
+      }
+    },
+    {
+      "type":"symbol",
+      "source":"superpoi",
+      "id":"superpoi2",
+        "layout": {
+          "icon-size": ["interpolate",["linear"],["zoom"],0,1,22,1],
+          "icon-image":["to-string",["get","icon"]],
+          "visibility":"visible"
+        },
+        "paint":{}
+    }
+  ]
+}

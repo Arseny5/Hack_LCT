@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "superpoi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name_ru": "Главный вход", "icon": "main-entrance" }, "geometry": { "type": "Point", "coordinates": [ 37.63761234487302, 55.826281720864401 ] } },
+{ "type": "Feature", "properties": { "id": 2, "name_ru": "Центральный павильон", "icon": "central-pavilion" }, "geometry": { "type": "Point", "coordinates": [ 37.633687782415521, 55.828716363082414 ] } },
+{ "type": "Feature", "properties": { "id": 3, "name_ru": "Фонтан «Дружба народов»", "icon": "druzhba-fontain" }, "geometry": { "type": "Point", "coordinates": [ 37.63180841447813, 55.829849545214238 ] } },
+{ "type": "Feature", "properties": { "id": 4, "name_ru": "Павильон «Земледелие»", "icon": "zemledelie" }, "geometry": { "type": "Point", "coordinates": [ 37.627082356870879, 55.832749616690656 ] } },
+{ "type": "Feature", "properties": { "id": 5, "name_ru": "Буран", "icon": "buran" }, "geometry": { "type": "Point", "coordinates": [ 37.622835353835889, 55.832133919329863 ] } },
+{ "type": "Feature", "properties": { "id": 6, "name_ru": "Москвариум", "icon": "moskvarium" }, "geometry": { "type": "Point", "coordinates": [ 37.6185238626854, 55.832941050018007 ] } },
+{ "type": "Feature", "properties": { "id": 7, "name_ru": "Павильон «Космос»", "icon": "cosmos" }, "geometry": { "type": "Point", "coordinates": [ 37.620205159982333, 55.83605300288017 ] } },
+{ "type": "Feature", "properties": { "id": 8, "name_ru": "Ракета-носитель «Восток»", "icon": "vostok" }, "geometry": { "type": "Point", "coordinates": [ 37.623107125179786, 55.834301751650216 ] } },
+{ "type": "Feature", "properties": { "id": 9, "name_ru": "Зелёный театр", "icon": "green-theater" }, "geometry": { "type": "Point", "coordinates": [ 37.617529561307087, 55.831574381160507 ] } }
+]
+}
